@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #f2f2f2;
+  background: #ffffff;
 }
 
 .pricing_main_absolute {
@@ -20,6 +20,12 @@ body {
     #bc7198 43.29%,
     #5a77ff 83.33%
   );
+}
+.middle_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px 28px 40px 28px;
 }
 .pricing_main {
   background: #000000;
@@ -48,4 +54,107 @@ body {
   margin-bottom: 72px;
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+.middle_parent_switcher {
+  background: #dfdfdf;
+  width: 64px;
+  height: 32px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+.middle_parent_switcher div {
+  background-color: #000000;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+.middle_child_switcher {
+  background: #000000;
+}
+.middle_switcher {
+  display: flex;
+  margin-bottom: 16px;
+}
+.offer_price {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 4.16667px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 40px;
+}
+.offer_type {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+}
+.offer_brif {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  margin-top: 18px;
+}
+.offer_duration {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.offer_btn {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background: #000000;
+  padding: 12px 81px;
+  border: 0;
+  margin-top: 40px;
+}
+.middle_basic,
+.middle_pro,
+.middle_business {
+  padding: 56px 22px 40px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f2f2f2;
+  margin-top: 24px;
+}
+.middle_pro {
+  background: #000000;
+}
+.middle_pro h1,
+.middle_pro h4,
+.middle_pro p,
+.middle_pro h2 {
+  color: #ffffff;
+}
+.middle_pro button {
+  color: #000000;
+  background-color: #ffffff;
+  border: 0;
 }
