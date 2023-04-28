@@ -338,14 +338,28 @@ body {
   filter: invert(100%) sepia(51%) saturate(0%) hue-rotate(102deg)
     brightness(102%) contrast(101%);
 }
+.colorful_column,
+.tablet_hero,
+.tablet {
+  display: none;
+}
 @media (min-width: 768px) {
-  .mobile_hero {
+  .mobile_hero,
+  .offer_btn {
     display: none;
   }
   .tablet_hero_pricing {
     display: flex;
   }
-  .pricing_main {
+  .tablet_hero,
+  .tablet {
+    display: block;
+  }
+  .tablet {
+    width: 100%;
+  }
+  .pricing_main,
+  .colorful_column {
     width: 64.45vw;
     display: flex;
     align-items: center;
@@ -373,5 +387,34 @@ body {
     width: 6px;
     height: 144px;
     margin-right: 48px;
+  }
+  .middle_basic,
+  .middle_pro,
+  .middle_business {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    align-items: flex-start;
+    column-gap: 154px;
+  }
+  .tablet_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 35.15vw;
+  }
+  .offer_brif {
+    text-align: start;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+  .offer_price {
+    margin: 0;
   }
 }
