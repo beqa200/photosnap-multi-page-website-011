@@ -36,7 +36,7 @@ body {
 }
 .pricing_main {
   background: #000000;
-  transform: translatey(-5px);
+  transform: translatey(-6px);
   padding-left: 29px;
   width: 100vw;
 }
@@ -301,6 +301,9 @@ body {
   position: relative;
   width: 100vw;
 }
+.rock_img_mobile {
+  width: 100%;
+}
 .invite_absolute {
   position: absolute;
   top: 0;
@@ -340,23 +343,54 @@ body {
 }
 .colorful_column,
 .tablet_hero,
-.tablet {
+.tablet,
+.tablet_compare,
+.tablet_features,
+.rock_img_tablet,
+.desktop {
   display: none;
 }
 @media (min-width: 768px) {
   .mobile_hero,
-  .offer_btn {
+  .offer_btn,
+  .rock_img_mobile {
     display: none;
   }
   .tablet_hero_pricing {
     display: flex;
+    height: 490px;
   }
-  .middle_features {
+  .tablet_hero_pricing img {
+    height: 100%;
+    transform: translateX(-1px);
+  }
+  .pricing_main {
+    transform: translateY(0);
+  }
+  .tablet_hero img {
+    width: 100%;
+  }
+  .middle_features,
+  .middle_business,
+  .middle_pro,
+  .middle_basic {
     width: 689px;
   }
+  .middle_features {
+    margin-bottom: 180px;
+  }
   .tablet_hero,
-  .tablet {
+  .tablet,
+  .rock_img_tablet,
+  .tablet_compare {
     display: block;
+  }
+  .middle_main {
+    margin: 64px 0px 0px 0px;
+    width: 768px;
+  }
+  .rock_img_tablet {
+    width: 100%;
   }
   .tablet {
     width: 100%;
@@ -380,6 +414,17 @@ body {
     justify-content: start;
     align-items: center;
   }
+  .tablet_invite_colorful {
+    position: absolute;
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+    width: 6px;
+    height: 425px;
+  }
   .colorful_column {
     background: linear-gradient(
       26.57deg,
@@ -399,6 +444,14 @@ body {
     padding: 40px;
     align-items: flex-start;
     column-gap: 154px;
+  }
+  .middle_pro {
+    position: relative;
+  }
+  .colorful_column_tablet {
+    position: absolute;
+    left: 0;
+    top: 0;
   }
   .tablet_info {
     display: flex;
@@ -465,5 +518,136 @@ body {
   }
   .solid_line {
     width: 100%;
+  }
+  .tablet_compare {
+    margin: 102px 0px 64px 0px;
+  }
+  .tablet_compare h1 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 4.16667px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .invite_absolute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 123px;
+  }
+
+  .colorful_column_tablet {
+    width: 6px;
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+    height: 279px;
+  }
+  .tablet_info_business {
+    margin-left: 34px;
+    margin-right: 154px;
+  }
+
+  .invite_absolute h1 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 4.16667px;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 52.08%;
+    margin: 0;
+  }
+  .arrow_div h6 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+  .invite_absolute {
+    top: 25%;
+    margin: 0;
+  }
+  .arrow_div {
+    margin-right: 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .tablet_hero_img {
+    display: none;
+  }
+  .tablet_hero {
+    width: 57.63vw;
+  }
+  .pricing_main {
+    width: 42.37vw;
+  }
+  .desktop {
+    display: block;
+  }
+  .desktop_middle {
+    display: flex;
+    flex-direction: row;
+    column-gap: 410px;
+    position: relative;
+  }
+  .middle_basic,
+  .middle_business,
+  .middle_pro {
+    width: 350px;
+  }
+  .middle_basic,
+  .middle_pro,
+  .middle_business {
+    padding: 56px 22px 40px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f2f2;
+    margin-top: 24px;
+    column-gap: 0;
+  }
+  .middle_pro {
+    background: #000000;
+  }
+  .offer_btn {
+    display: block;
+  }
+  .tablet {
+    display: none;
+  }
+  .tablet_info {
+    width: 270px;
+    align-items: center;
+  }
+  .middle_pro {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 34.5%;
+    height: 470px;
+  }
+  .colorful_column_tablet {
+    height: 470px;
+  }
+  .tablet_compare {
+    margin-top: 160px;
+  }
+  .middle_basic,
+  .middle_business {
+    margin-top: 50px;
   }
 }

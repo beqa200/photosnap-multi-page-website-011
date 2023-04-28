@@ -6,9 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/pricing.css" />
     <link rel="stylesheet" href="./src/footer.css" />
+    <link rel="stylesheet" href="./src/header.css">
     <title>Document</title>
   </head>
   <body>
+  <header>
+      <div class="header-nav">
+        <img src="./assets/features/mobile/logo.svg" alt="logo" />
+        <nav class="tablet-desktop-nav">
+          <a href="stories.html">STORIES</a>
+          <a href="features.html">FEATURES</a>
+          <a href="pricing.html">PRICING</a>
+        </nav>
+        <button class="get-invite">GET AN INVITE</button>
+      </div>
+      <div class="burger-bar" id="nav-bar">
+        <div id="burger-icon">
+          <img
+            id="meniu-icon"
+            src="assets/features/mobile/burger-icon.svg"
+            alt="burger-icon"
+          />
+        </div>
+      </div>
+      <div class="burger-meniu" id="burger-meniu">
+        <nav class="navigation">
+          <a href="stories.html">STORIES</a>
+          <a href="features.html">FEATURES</a>
+          <a href="pricing.html">PRICING</a>
+        </nav>
+        <hr />
+        <button class="invite">GET AN INVITE</button>
+      </div>
+    </header>
   <div class="tablet_hero_pricing"> 
     <div class="mobile_hero">
       <img class="hero_mobile" src="./assets/pricing/mobile/hero.jpg" alt="" />
@@ -28,7 +58,8 @@
       </div>
     </div>
     <div class="tablet_hero">
-      <img src="./assets/pricing/tablet/hero.jpg" alt="">
+      <img class="tablet_hero_img" src="./assets/pricing/tablet/hero.jpg" alt="">
+      <img  class="desktop" src="./assets/pricing/desktop/hero.jpg" alt="">
     </div>
   </div>
     <div class="middle_main">
@@ -39,7 +70,8 @@
         </div>
         <span class="yearly">Yearly</span>
       </div>
-      <div class="middle_basic">
+      <div class="desktop_middle">
+        <div class="middle_basic">
         <div class="tablet_info">
           <h2 class="offer_type">Basic</h2>
           <h4 class="offer_brif">
@@ -53,23 +85,24 @@
           <p class="offer_duration">per month</p>
           <button class="offer_btn">PICK PLAN</button>
         </div>
-      </div>
-      <div class="middle_pro">
-        <div class="tablet_info">
+        </div>
+        <div class="middle_pro">
+        <div class="colorful_column_tablet"></div>
+          <div class="tablet_info ">
           <h2 class="offer_type">Pro</h2>
           <h4 class="offer_brif">
             More advanced features available. Recommended for photography veterans
             and professionals.
           </h4>
           <button class="offer_btn tablet">PICK PLAN</button>
-        </div>
-        <div>
+          </div>
+          <div>
           <h1 class="offer_price">$39.00</h1>
           <p class="offer_duration">per month</p>
           <button class="offer_btn">PICK PLAN</button>
-        </div>
-      </div>
-      <div class="middle_business">
+          </div>
+          </div>
+        <div class="middle_business">
         <div class="tablet_info">
           <h2 class="offer_type">Business</h2>
           <h4 class="offer_brif">
@@ -83,7 +116,11 @@
           <p class="offer_duration">per month</p>
           <button class="offer_btn">PICK PLAN</button>
         </div>
+        </div>
       </div>
+        <div class="tablet_compare">
+      <h1>COMPARE</h1>
+     </div>
       <div class="middle_features">
         <div class="tablet_feature_header">
           <h4>THE FEATURES</h4>
@@ -285,8 +322,12 @@
       </div>
         <div class="feature_bottom_line"></div>
       </div>
-      <div class="invite_section">
-        <img class="rock_img" src="./assets/shared/mobile/bg-beta.jpg" alt="" />
+      
+    </div>
+     <div class="invite_section">
+        <div class="tablet_invite_colorful"></div>
+        <img class="rock_img_mobile" src="./assets/shared/mobile/bg-beta.jpg" alt="" />
+        <img class="rock_img_tablet" src="./assets/shared/tablet/bg-beta.jpg" alt="">
         <div class="invite_absolute">
           <div class="pricing_main_absolute"></div>
           <h1>We’re in beta. Get your invite today!</h1>
@@ -298,10 +339,11 @@
           </div>
         </div>
       </div>
-    </div>
     <footer>
-      <img class="logo" src="./assets/shared/desktop/logo.svg" alt="" />
-      <div class="social_icons">
+      <div class="footer_left_side">
+        <img class="logo_mobile" src="./assets/shared/desktop/logo.svg" alt="" />
+        <div class="tablet_footer_socials">
+          <div class="social_icons">
         <img
           class="facebook"
           src="./assets/shared/desktop/facebook.svg"
@@ -311,21 +353,25 @@
         <img src="./assets/shared/desktop/twitter.svg" alt="" />
         <img src="./assets/shared/desktop/pinterest.svg" alt="" />
         <img src="./assets/shared/desktop/instagram.svg" alt="" />
-      </div>
-      <div class="menu">
+          </div>
+          <div class="menu">
         <h4>Home</h4>
         <h4>Stories</h4>
         <h4>Features</h4>
         <h4>Pricing</h4>
+          </div>
+        </div>  
       </div>
-      <div class="invition">
+      <div class="footer_right_side">  
+        <div class="invition">
         <h6>GET AN INVITE</h6>
         <img src="./assets/shared/desktop/arrow.svg" alt="">
-      </div>
-      <div class="Copyright">
+        </div>
+        <div class="Copyright">
         <p>Copyright 2019. All Rights Reserved</p>
+        </div>
       </div>
-    </footer>
+      </footer>
     <script src="./src/script.js"></script>
   </body>
 </html>
