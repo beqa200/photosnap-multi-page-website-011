@@ -17,7 +17,7 @@ footer {
   padding: 56px 0px;
   width: 100vw;
 
-  transform: translatey(-5px);
+  transform: translatey(-6px);
 }
 svg path {
   fill: #ffff;
@@ -73,7 +73,40 @@ svg path {
   opacity: 0.5;
 }
 .social_icons img,
-.logo {
+.logo_mobile {
   filter: invert(100%) sepia(51%) saturate(0%) hue-rotate(102deg)
     brightness(102%) contrast(101%);
+}
+@media (min-width: 768px) {
+  .tablet_footer_socials {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 73px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    column-gap: 26px;
+    margin-top: 13px;
+  }
+  .social_icons {
+    margin: 0;
+  }
+  footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 40px;
+  }
+  .invition {
+    margin: 0;
+  }
+  .footer_right_side,
+  .Copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 120px;
+    align-items: end;
+  }
 }
