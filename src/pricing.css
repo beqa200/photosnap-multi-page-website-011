@@ -338,3 +338,40 @@ body {
   filter: invert(100%) sepia(51%) saturate(0%) hue-rotate(102deg)
     brightness(102%) contrast(101%);
 }
+@media (min-width: 768px) {
+  .mobile_hero {
+    display: none;
+  }
+  .tablet_hero_pricing {
+    display: flex;
+  }
+  .pricing_main {
+    width: 64.45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .tablet_hero {
+    width: 35.55vw;
+  }
+  .pricing_main_absolute {
+    display: none;
+  }
+  .pricing_main_relative {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .colorful_column {
+    background: linear-gradient(
+      26.57deg,
+      #ffc593 0%,
+      #bc7198 43.29%,
+      #5a77ff 83.33%
+    );
+    width: 6px;
+    height: 144px;
+    margin-right: 48px;
+  }
+}
