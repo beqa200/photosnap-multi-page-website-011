@@ -29,6 +29,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .tablet-desktop-description {
+    display: none;
+  }
   .story-description {
     width: 100%;
     height: 495px;
@@ -171,4 +174,42 @@ body {
   }
   .land-of-dreams {
     background-image: url(../assets/stories/mobile/land-of-dreams.jpg);
+  }
+
+
+  /* styles for tablet  */
+
+  @media only screen and (min-width: 768px) {
+    main {
+      max-width: 1440px;
+    }
+    .bg {
+      height: 650px;
+      background-image: url(../assets/stories/tablet/moon-of-appalacia.jpg);
+      padding: 122px 0 0 40px;
+    }
+    .tablet-desktop-description {
+      display: block;
+    }
+    .story-description {
+      display: none;
+    }
+    h2 {
+      font-size: 48px;
+      line-height: 48px;
+      width: 387px;
+      margin-top: 24px;
+    }
+    .info {
+      width: 387px;
+    }
+    .stories-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 800px;
+    }
+    .story-section {
+      width: 50%;
+    }
   }
