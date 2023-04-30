@@ -15,15 +15,16 @@ footer {
   align-items: center;
   background-color: #000000;
   padding: 56px 0px;
-  width: 100vw;
-
+  max-width: 580px;
   transform: translatey(-6px);
+  margin: 0 auto;
+  width: 100%;
 }
-svg path {
-  fill: #ffff;
-}
-.logo_fill {
-  fill: url(#a);
+.footer_left_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .social_icons {
   display: flex;
@@ -97,6 +98,13 @@ svg path {
     align-items: center;
     justify-content: space-between;
     padding: 64px 40px;
+    width: 100vw;
+    max-width: 100%;
+  }
+  .main_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
   .invition {
     margin: 0;
