@@ -80,7 +80,7 @@ hr {
   .burger-bar {
     display: none;
   }
-  hr {
+  .line {
     display: none;
   }
   .header-nav {
