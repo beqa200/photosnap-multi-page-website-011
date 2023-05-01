@@ -29,16 +29,33 @@ body {
   margin: 64px 28px 0px 28px;
   margin-left: 25px;
   background-color: #ffffff;
-  width: 100vw;
+  max-width: 520px;
 }
-.hero_mobile {
-  width: 100vw;
+/* .hero_mobile {
+  width: 580px;
+} */
+.mobile_hero {
+  background-image: url(../assets/pricing/mobile/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 294px;
+  width: 100%;
+}
+.tablet_hero_pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 520px;
 }
 .pricing_main {
   background: #000000;
   transform: translatey(-6px);
   padding-left: 29px;
-  width: 100vw;
+  max-width: 100%;
 }
 .pricing_main_relative h1 {
   font-family: "DM Sans";
@@ -182,6 +199,9 @@ body {
   opacity: 0.6;
   margin-top: 18px;
 }
+.desktop_middle {
+  width: 100%;
+}
 .offer_duration {
   font-family: "DM Sans";
   font-style: normal;
@@ -217,6 +237,7 @@ body {
   align-items: center;
   background: #f2f2f2;
   margin-top: 24px;
+  width: 100%;
 }
 .middle_pro {
   background: #000000;
@@ -235,7 +256,7 @@ body {
 .solid_line {
   border: 1px solid #000000;
   height: 1px;
-  width: 84.8vw;
+  width: 100%;
 }
 .feature_checkout {
   display: flex;
@@ -255,7 +276,7 @@ body {
   width: 100%;
 }
 .middle_features {
-  width: 84.8vw;
+  width: 100%;
 }
 .feature_bottom_line {
   border: 1px solid #dfdfdf;
@@ -291,24 +312,27 @@ body {
   color: #000000;
   width: 100%;
 }
-.invite_section {
-  background-image: url();
-}
+
 .rock_img {
   width: 100%;
 }
 .invite_section {
-  position: relative;
-  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 520px;
+  margin-top: 200px;
 }
 .rock_img_mobile {
+  background-image: url(../assets/shared/mobile/bg-beta.jpg);
   width: 100%;
+  height: 288px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.invite_absolute {
-  position: absolute;
-  top: 0;
-  left: 34px;
-}
+
 .invite_absolute h1 {
   margin-top: 58px;
   font-family: "DM Sans";
@@ -319,6 +343,9 @@ body {
   letter-spacing: 3.33333px;
   text-transform: uppercase;
   color: #ffffff;
+}
+.invite_absolute {
+  padding-left: 33px;
 }
 
 .arrow_div {
@@ -353,33 +380,40 @@ body {
 @media (min-width: 768px) {
   .mobile_hero,
   .offer_btn,
-  .rock_img_mobile {
+  .pricing_main_absolute {
     display: none;
   }
   .tablet_hero_pricing {
     display: flex;
     height: 490px;
-  }
-  .tablet_hero_pricing img {
-    height: 100%;
-    transform: translateX(-1px);
+    flex-direction: row;
+    max-width: 100vw;
+    width: 100%;
   }
   .pricing_main {
     transform: translateY(0);
   }
+  .tablet_hero {
+    display: flex;
+    width: 35.55%;
+    height: 490px;
+  }
   .tablet_hero img {
     width: 100%;
+    height: 100%;
   }
   .middle_features,
   .middle_business,
   .middle_pro,
   .middle_basic {
     width: 689px;
+    justify-content: center;
+    align-items: center;
   }
   .middle_features {
     margin-bottom: 180px;
   }
-  .tablet_hero,
+
   .tablet,
   .rock_img_tablet,
   .tablet_compare {
@@ -387,7 +421,7 @@ body {
   }
   .middle_main {
     margin: 64px 0px 0px 0px;
-    width: 768px;
+    max-width: 768px;
   }
   .rock_img_tablet {
     width: 100%;
@@ -397,25 +431,25 @@ body {
   }
   .pricing_main,
   .colorful_column {
-    width: 64.45vw;
+    width: 64.45%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
   }
   .tablet_hero {
-    width: 35.55vw;
+    width: 35.55%;
+    transform: translateX(-1px);
   }
-  .pricing_main_absolute {
-    display: none;
-  }
+
   .pricing_main_relative {
     display: flex;
     justify-content: start;
     align-items: center;
+    height: 490px;
+    width: 100%;
   }
   .tablet_invite_colorful {
-    position: absolute;
     background: linear-gradient(
       26.57deg,
       #ffc593 0%,
@@ -423,7 +457,8 @@ body {
       #5a77ff 83.33%
     );
     width: 6px;
-    height: 425px;
+    height: 280px;
+    position: absolute;
   }
   .colorful_column {
     background: linear-gradient(
@@ -444,6 +479,7 @@ body {
     padding: 40px;
     align-items: flex-start;
     column-gap: 154px;
+    width: 689px;
   }
   .middle_pro {
     position: relative;
@@ -491,6 +527,12 @@ body {
   .feature_checkout {
     column-gap: 110px;
   }
+  .desktop_middle {
+    width: 689px;
+  }
+  .invite_section {
+    max-width: 100vw;
+  }
   .tablet_features p {
     font-family: "DM Sans";
     font-style: normal;
@@ -522,6 +564,20 @@ body {
   .tablet_compare {
     margin: 102px 0px 64px 0px;
   }
+  .rock_img_mobile {
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(../assets/shared/tablet/bg-beta.jpg);
+    width: 100vw;
+    max-width: 100%;
+    align-items: start;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .tablet_rockimg {
+    display: flex;
+  }
   .tablet_compare h1 {
     font-family: "DM Sans";
     font-style: normal;
@@ -536,8 +592,11 @@ body {
   .invite_absolute {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     column-gap: 123px;
+    padding-left: 0;
+    height: 280px;
+    position: relative;
   }
 
   .colorful_column_tablet {
@@ -566,6 +625,7 @@ body {
     color: #ffffff;
     width: 52.08%;
     margin: 0;
+    padding-left: 39px;
   }
   .arrow_div h6 {
     font-family: "DM Sans";
@@ -577,10 +637,7 @@ body {
     letter-spacing: 2px;
     color: #ffffff;
   }
-  .invite_absolute {
-    top: 25%;
-    margin: 0;
-  }
+
   .arrow_div {
     margin-right: 40px;
   }
@@ -603,6 +660,7 @@ body {
     flex-direction: row;
     column-gap: 410px;
     position: relative;
+    width: 1110px;
   }
   .middle_basic,
   .middle_business,
@@ -632,6 +690,10 @@ body {
   .tablet_info {
     width: 270px;
     align-items: center;
+  }
+  .middle_main {
+    width: 1110px;
+    max-width: 100%;
   }
   .middle_pro {
     margin: 0;
