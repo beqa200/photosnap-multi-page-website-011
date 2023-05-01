@@ -458,6 +458,7 @@ body {
     );
     width: 6px;
     height: 280px;
+    position: absolute;
   }
   .colorful_column {
     background: linear-gradient(
@@ -591,10 +592,11 @@ body {
   .invite_absolute {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     column-gap: 123px;
     padding-left: 0;
     height: 280px;
+    position: relative;
   }
 
   .colorful_column_tablet {
@@ -623,6 +625,7 @@ body {
     color: #ffffff;
     width: 52.08%;
     margin: 0;
+    padding-left: 39px;
   }
   .arrow_div h6 {
     font-family: "DM Sans";
