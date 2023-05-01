@@ -29,7 +29,7 @@ body {
   margin: 64px 28px 0px 28px;
   margin-left: 25px;
   background-color: #ffffff;
-  max-width: 580px;
+  max-width: 520px;
 }
 /* .hero_mobile {
   width: 580px;
@@ -49,7 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 580px;
+  max-width: 520px;
 }
 .pricing_main {
   background: #000000;
@@ -321,7 +321,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 580px;
+  max-width: 520px;
   margin-top: 200px;
 }
 .rock_img_mobile {
@@ -343,6 +343,9 @@ body {
   letter-spacing: 3.33333px;
   text-transform: uppercase;
   color: #ffffff;
+}
+.invite_absolute {
+  padding-left: 33px;
 }
 
 .arrow_div {
@@ -377,7 +380,7 @@ body {
 @media (min-width: 768px) {
   .mobile_hero,
   .offer_btn,
-  .rock_img_mobile {
+  .pricing_main_absolute {
     display: none;
   }
   .tablet_hero_pricing {
@@ -438,9 +441,7 @@ body {
     width: 35.55%;
     transform: translateX(-1px);
   }
-  .pricing_main_absolute {
-    display: none;
-  }
+
   .pricing_main_relative {
     display: flex;
     justify-content: start;
@@ -456,7 +457,7 @@ body {
       #5a77ff 83.33%
     );
     width: 6px;
-    height: 425px;
+    height: 280px;
   }
   .colorful_column {
     background: linear-gradient(
@@ -528,6 +529,9 @@ body {
   .desktop_middle {
     width: 689px;
   }
+  .invite_section {
+    max-width: 100vw;
+  }
   .tablet_features p {
     font-family: "DM Sans";
     font-style: normal;
@@ -559,7 +563,9 @@ body {
   .tablet_compare {
     margin: 102px 0px 64px 0px;
   }
-  .invite_section {
+  .rock_img_mobile {
+    flex-direction: row;
+    justify-content: center;
     background-image: url(../assets/shared/tablet/bg-beta.jpg);
     width: 100vw;
     max-width: 100%;
@@ -567,6 +573,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+  .tablet_rockimg {
+    display: flex;
   }
   .tablet_compare h1 {
     font-family: "DM Sans";
@@ -582,8 +591,10 @@ body {
   .invite_absolute {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     column-gap: 123px;
+    padding-left: 0;
+    height: 280px;
   }
 
   .colorful_column_tablet {
@@ -623,10 +634,7 @@ body {
     letter-spacing: 2px;
     color: #ffffff;
   }
-  .invite_absolute {
-    top: 25%;
-    margin: 0;
-  }
+
   .arrow_div {
     margin-right: 40px;
   }

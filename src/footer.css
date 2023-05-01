@@ -15,7 +15,7 @@ footer {
   align-items: center;
   background-color: #000000;
   padding: 56px 0px;
-  max-width: 580px;
+  max-width: 520px;
   transform: translatey(-6px);
   margin: 0 auto;
   width: 100%;
@@ -24,7 +24,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .social_icons {
   display: flex;
@@ -116,5 +116,19 @@ footer {
     justify-content: space-between;
     row-gap: 120px;
     align-items: end;
+  }
+}
+@media (min-width: 1440px) {
+  .tablet_footer_socials {
+    flex-direction: row;
+    align-items: flex-end;
+    column-gap: 125px;
+  }
+  .logo_mobile {
+    transform: translateY(30px);
+  }
+  .menu {
+    margin: 0;
+    flex-direction: column;
   }
 }
