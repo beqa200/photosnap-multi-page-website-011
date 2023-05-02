@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/beqa200/photosnap-multi-page-website-011.git)
-- Live Site URL: (https://photosnap-multi-page-website-011.vercel.app/)
+- Solution URL: [Github](https://github.com/beqa200/photosnap-multi-page-website-011.git)
+- Live Site URL: [Vercel](https://photosnap-multi-page-website-011.vercel.app/)
 
 ## My process
 
@@ -37,9 +37,9 @@ Lessons we learned about collaboration
 
 ## Author
 
-Beka Merebashvili
-Beka Abuladze
+Beka Merebashvili - [LinkedIn](https://www.linkedin.com/in/beka-merebashvili-a04554248/)
+Beka Abuladze - [LinkedIn](https://www.linkedin.com/in/beka-abuladze-50a344217/)
 
 ## mentor
 
-Beka Maisuradze
+Beka Maisuradze 
