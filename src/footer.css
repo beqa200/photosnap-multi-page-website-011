@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.desktop_footer {
+  display: block;
+}
 .invition img {
   filter: invert(100%) sepia(51%) saturate(0%) hue-rotate(102deg)
     brightness(102%) contrast(101%);
@@ -77,6 +80,9 @@ footer {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
+.invition {
+  height: 15px;
+}
 .main_footer,
 .footer_right_side {
   display: flex;
@@ -84,7 +90,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.desktop_footer img {
+.desktop_logo {
   display: none;
 }
 
@@ -93,6 +99,39 @@ footer {
 .tablet_footer_socials img {
   filter: invert(100%) sepia(51%) saturate(0%) hue-rotate(102deg)
     brightness(102%) contrast(101%);
+}
+.social_icons img {
+  cursor: pointer;
+}
+.facebook:hover {
+  filter: invert(27%) sepia(92%) saturate(7469%) hue-rotate(258deg)
+    brightness(95%) contrast(99%);
+}
+.youtube:hover {
+  filter: invert(30%) sepia(66%) saturate(5119%) hue-rotate(325deg)
+    brightness(83%) contrast(99%);
+}
+.twitter:hover {
+  filter: invert(81%) sepia(44%) saturate(472%) hue-rotate(111deg)
+    brightness(100%) contrast(107%);
+}
+.pinterest:hover {
+  filter: invert(98%) sepia(79%) saturate(2389%) hue-rotate(304deg)
+    brightness(108%) contrast(93%);
+}
+.instagram:hover {
+  filter: invert(98%) sepia(79%) saturate(2389%) hue-rotate(304deg)
+    brightness(108%) contrast(93%);
+}
+.menu h4:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+.invition h6:hover {
+  cursor: pointer;
+  border-bottom: 6px;
+  border-color: rebeccapurple;
+  border-bottom: 1px solid #ffffff;
 }
 @media (min-width: 768px) {
   .footer_left_side {
