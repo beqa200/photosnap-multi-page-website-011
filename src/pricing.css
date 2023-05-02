@@ -57,7 +57,7 @@ body {
   padding-left: 29px;
   max-width: 100%;
 }
-.pricing_main_relative h1 {
+.pricing_main_relative h5 {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -242,7 +242,7 @@ body {
 .middle_pro {
   background: #000000;
 }
-.middle_pro h1,
+.middle_pro h5,
 .middle_pro h4,
 .middle_pro p,
 .middle_pro h2 {
@@ -332,8 +332,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.arrow_div h6:hover {
+  height: 17px;
+  border-bottom: 1px solid #ffffff;
+}
 
-.invite_absolute h1 {
+.invite_absolute h5 {
   margin-top: 58px;
   font-family: "DM Sans";
   font-style: normal;
@@ -371,11 +375,16 @@ body {
 .colorful_column,
 .tablet_hero,
 .tablet,
+.tablet_btn,
 .tablet_compare,
 .tablet_features,
 .rock_img_tablet,
 .desktop {
   display: none;
+}
+button:hover {
+  cursor: pointer;
+  background: #dfdfdf;
 }
 @media (min-width: 768px) {
   .mobile_hero,
@@ -402,12 +411,16 @@ body {
     width: 100%;
     height: 100%;
   }
+  .top_pricing {
+    max-width: 555px;
+    margin-right: 55px;
+  }
   .middle_features,
   .middle_business,
   .middle_pro,
   .middle_basic {
     width: 689px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .middle_features {
@@ -415,6 +428,7 @@ body {
   }
 
   .tablet,
+  .tablet_btn,
   .rock_img_tablet,
   .tablet_compare {
     display: block;
@@ -457,8 +471,10 @@ body {
       #5a77ff 83.33%
     );
     width: 6px;
-    height: 280px;
+    height: 288px;
     position: absolute;
+    top: 0;
+    left: 0;
   }
   .colorful_column {
     background: linear-gradient(
@@ -505,6 +521,7 @@ body {
     color: #000000;
     mix-blend-mode: normal;
     opacity: 0.6;
+    width: 270px;
   }
   .offer_price {
     margin: 0;
@@ -531,7 +548,8 @@ body {
     width: 689px;
   }
   .invite_section {
-    max-width: 100vw;
+    width: 100vw;
+    max-width: 100%;
   }
   .tablet_features p {
     font-family: "DM Sans";
@@ -578,7 +596,7 @@ body {
   .tablet_rockimg {
     display: flex;
   }
-  .tablet_compare h1 {
+  .tablet_compare h5 {
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
@@ -614,7 +632,7 @@ body {
     margin-right: 154px;
   }
 
-  .invite_absolute h1 {
+  .invite_absolute h5 {
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
@@ -626,6 +644,7 @@ body {
     width: 52.08%;
     margin: 0;
     padding-left: 39px;
+    width: 400px;
   }
   .arrow_div h6 {
     font-family: "DM Sans";
@@ -641,13 +660,26 @@ body {
   .arrow_div {
     margin-right: 40px;
   }
+  .middle_features {
+    margin-bottom: 0;
+  }
 }
 @media (min-width: 1440px) {
-  .tablet_hero_img {
-    display: none;
-  }
   .tablet_hero {
     width: 57.63vw;
+  }
+  .invite_section {
+    transform: translatey(1px);
+    margin-top: 200px;
+  }
+  .offer_brif {
+    text-align: center;
+  }
+  .offer_price {
+    margin-top: 40px;
+  }
+  .middle_pro {
+    row-gap: 0px;
   }
   .pricing_main {
     width: 42.37vw;
@@ -684,7 +716,9 @@ body {
   .offer_btn {
     display: block;
   }
-  .tablet {
+  .tablet,
+  .tablet_btn,
+  .tablet_hero_img {
     display: none;
   }
   .tablet_info {
@@ -698,15 +732,22 @@ body {
   .middle_pro {
     margin: 0;
     position: absolute;
-    top: 0;
+    top: 20px;
     left: 34.5%;
     height: 470px;
   }
+  .middle_pro {
+    padding-bottom: 71px;
+  }
   .colorful_column_tablet {
-    height: 470px;
+    height: 6px;
+    width: 350px;
   }
   .tablet_compare {
     margin-top: 160px;
+  }
+  .invite_absolute h5 {
+    margin-left: 120px;
   }
   .middle_basic,
   .middle_business {
