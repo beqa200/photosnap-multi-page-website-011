@@ -209,7 +209,7 @@ hr {
 }
 
 .no_limit {
-  margin-top: 88px;
+  margin-top: 93px;
 }
 .feature_section {
   margin-top: 24px;
@@ -342,6 +342,7 @@ hr {
   }
   .story-section {
     width: 25%;
+    transition: transform 0.3s ease;
   }
   .story-section:hover {
     transform: translateY(-24px);

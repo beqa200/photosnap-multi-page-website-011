@@ -335,6 +335,7 @@ body {
 .arrow_div h6:hover {
   height: 17px;
   border-bottom: 1px solid #ffffff;
+  cursor: pointer;
 }
 
 .invite_absolute h5 {
@@ -386,6 +387,11 @@ button:hover {
   cursor: pointer;
   background: #dfdfdf;
 }
+
+
+/* styles for tablet */
+
+
 @media (min-width: 768px) {
   .mobile_hero,
   .offer_btn,
