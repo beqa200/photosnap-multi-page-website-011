@@ -37,8 +37,8 @@ Lessons we learned about collaboration
 
 ## Author
 
-Beka Merebashvili - [LinkedIn](https://www.linkedin.com/in/beka-merebashvili-a04554248/)
-Beka Abuladze - [LinkedIn](https://www.linkedin.com/in/beka-abuladze-50a344217/)
+- Beka Merebashvili - [LinkedIn](https://www.linkedin.com/in/beka-merebashvili-a04554248/)
+- Beka Abuladze - [LinkedIn](https://www.linkedin.com/in/beka-abuladze-50a344217/)
 
 ## mentor
 
