@@ -106,26 +106,32 @@ footer {
 .facebook:hover {
   filter: invert(27%) sepia(92%) saturate(7469%) hue-rotate(258deg)
     brightness(95%) contrast(99%);
+    transition: 0.3s;
 }
 .youtube:hover {
   filter: invert(30%) sepia(66%) saturate(5119%) hue-rotate(325deg)
     brightness(83%) contrast(99%);
+    transition: 0.3s;
 }
 .twitter:hover {
   filter: invert(81%) sepia(44%) saturate(472%) hue-rotate(111deg)
     brightness(100%) contrast(107%);
+    transition: 0.3s;
 }
 .pinterest:hover {
   filter: invert(98%) sepia(79%) saturate(2389%) hue-rotate(304deg)
     brightness(108%) contrast(93%);
+    transition: 0.3s;
 }
 .instagram:hover {
   filter: invert(98%) sepia(79%) saturate(2389%) hue-rotate(304deg)
     brightness(108%) contrast(93%);
+    transition: 0.3s;
 }
 .menu h4:hover {
   cursor: pointer;
   opacity: 0.3;
+  transition: 0.3s;
 }
 .invition h6:hover {
   cursor: pointer;
