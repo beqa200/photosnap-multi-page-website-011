@@ -1,3 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+header {
+  width: 100%;
+  max-width: 510px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 24px 28px 24px;
+  position: relative;
+}
+.tablet-desktop-nav {
+  display: none;
+}
+.burger-meniu {
+  width: 100%;
+  height: 252px;
+  background-color: #ffffff;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 72px;
+  left: 0;
+  display: none;
+}
+.active {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.navigation a {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000000;
+}
+hr {
+  width: 310px;
+  height: 1px;
+  background-color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  margin: 20px 0 20px 0;
+}
+.invite {
+  width: 310px;
+  height: 48px;
+  background: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  letter-spacing: 2.5px;
+  color: #ffffff;
+}
+.get-invite {
+  display: none;
+}
+
+/* styles for tablet  */
+
+@media only screen and (min-width: 768px) {
+  header {
+    max-width: 705px;
+    padding-left: 40px;
+    padding: 0;
+  }
+  .burger-bar {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  .tablet-desktop-nav {
+    display: flex;
+    gap: 37px;
+    margin-left: 42px;
+  }
+  .tablet-desktop-nav a {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 2px;
+    color: #000000;
+  }
+  .get-invite {
+    display: block;
+    width: 158px;
+    height: 40px;
+    font-weight: 700;
+    background: #000000;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  header {
+    max-width: 1180px;
+    padding-left: 165px;
+    padding: 0;
+  }
+  .tablet-desktop-nav {
+    margin: 0 264px 0 252px;
+  }
+  .tablet-desktop-nav a:hover {
+    color: #dfdfdf;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .get-invite:hover {
+    background: #dfdfdf;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+}
+
+/* footer section */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 * {
   margin: 0;
@@ -106,27 +245,27 @@ footer {
 .facebook:hover {
   filter: invert(27%) sepia(92%) saturate(7469%) hue-rotate(258deg)
     brightness(95%) contrast(99%);
-    transition: 0.3s;
+  transition: 0.3s;
 }
 .youtube:hover {
   filter: invert(30%) sepia(66%) saturate(5119%) hue-rotate(325deg)
     brightness(83%) contrast(99%);
-    transition: 0.3s;
+  transition: 0.3s;
 }
 .twitter:hover {
   filter: invert(81%) sepia(44%) saturate(472%) hue-rotate(111deg)
     brightness(100%) contrast(107%);
-    transition: 0.3s;
+  transition: 0.3s;
 }
 .pinterest:hover {
   filter: invert(98%) sepia(79%) saturate(2389%) hue-rotate(304deg)
     brightness(108%) contrast(93%);
-    transition: 0.3s;
+  transition: 0.3s;
 }
 .instagram:hover {
   filter: invert(98%) sepia(79%) saturate(2389%) hue-rotate(304deg)
     brightness(108%) contrast(93%);
-    transition: 0.3s;
+  transition: 0.3s;
 }
 .menu h4:hover {
   cursor: pointer;
