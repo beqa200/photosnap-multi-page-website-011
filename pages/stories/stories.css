@@ -25,7 +25,7 @@ main {
 .bg {
   width: 100%;
   height: 317px;
-  background-image: url(../assets/stories/mobile/moon-of-appalacia.jpg);
+  background-image: url(../../assets/stories/mobile/moon-of-appalacia.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -151,52 +151,52 @@ hr {
   left: 42px;
 }
 .mountains {
-  background-image: url(../assets/stories/mobile/mountains.jpg);
+  background-image: url(../../assets/stories/mobile/mountains.jpg);
 }
 .city {
-  background-image: url(../assets/stories/mobile/cityscapes.jpg);
+  background-image: url(../../assets/stories/mobile/cityscapes.jpg);
 }
 .days18 {
-  background-image: url(../assets/stories/mobile/18-days-voyage.jpg);
+  background-image: url(../../assets/stories/mobile/18-days-voyage.jpg);
 }
 .architecturals {
-  background-image: url(../assets/stories/mobile/architecturals.jpg);
+  background-image: url(../../assets/stories/mobile/architecturals.jpg);
 }
 .world-tour {
-  background-image: url(../assets/stories/mobile/world-tour.jpg);
+  background-image: url(../../assets/stories/mobile/world-tour.jpg);
 }
 .sunset {
-  background-image: url(../assets/stories/mobile/unforeseen-corners.jpg);
+  background-image: url(../../assets/stories/mobile/unforeseen-corners.jpg);
 }
 .lion {
-  background-image: url(../assets/stories/mobile/king-on-africa.jpg);
+  background-image: url(../../assets/stories/mobile/king-on-africa.jpg);
 }
 .tree {
-  background-image: url(../assets/stories/mobile/trip-to-nowhere.jpg);
+  background-image: url(../../assets/stories/mobile/trip-to-nowhere.jpg);
 }
 .sea {
-  background-image: url(../assets/stories/mobile/rage-of-the-sea.jpg);
+  background-image: url(../../assets/stories/mobile/rage-of-the-sea.jpg);
 }
 .horse {
-  background-image: url(../assets/stories/mobile/running-free.jpg);
+  background-image: url(../../assets/stories/mobile/running-free.jpg);
 }
 .behind-the-waves {
-  background-image: url(../assets/stories/mobile/behind-the-waves.jpg);
+  background-image: url(../../assets/stories/mobile/behind-the-waves.jpg);
 }
 .calm-waters {
-  background-image: url(../assets/stories/mobile/calm-waters.jpg);
+  background-image: url(../../assets/stories/mobile/calm-waters.jpg);
 }
 .milky-way {
-  background-image: url(../assets/stories/mobile/milky-way.jpg);
+  background-image: url(../../assets/stories/mobile/milky-way.jpg);
 }
 .dark-forest {
-  background-image: url(../assets/stories/mobile/dark-forest.jpg);
+  background-image: url(../../assets/stories/mobile/dark-forest.jpg);
 }
 .somwarpet {
-  background-image: url(../assets/stories/mobile/somwarpet.jpg);
+  background-image: url(../../assets/stories/mobile/somwarpet.jpg);
 }
 .land-of-dreams {
-  background-image: url(../assets/stories/mobile/land-of-dreams.jpg);
+  background-image: url(../../assets/stories/mobile/land-of-dreams.jpg);
 }
 
 /* styles for tablet  */
@@ -207,7 +207,7 @@ hr {
   }
   .bg {
     height: 650px;
-    background-image: url(../assets/stories/tablet/moon-of-appalacia.jpg);
+    background-image: url(../../assets/stories/tablet/moon-of-appalacia.jpg);
     padding: 122px 0 0 40px;
   }
   .tablet-desktop-description {
@@ -240,52 +240,52 @@ hr {
     left: 40px;
   }
   .mountains {
-    background-image: url(../assets/stories/desktop/mountains.jpg);
+    background-image: url(../../assets/stories/desktop/mountains.jpg);
   }
   .city {
-    background-image: url(../assets/stories/desktop/cityscapes.jpg);
+    background-image: url(../../assets/stories/desktop/cityscapes.jpg);
   }
   .days18 {
-    background-image: url(../assets/stories/desktop/18-days-voyage.jpg);
+    background-image: url(../../assets/stories/desktop/18-days-voyage.jpg);
   }
   .architecturals {
-    background-image: url(../assets/stories/desktop/architecturals.jpg);
+    background-image: url(../../assets/stories/desktop/architecturals.jpg);
   }
   .world-tour {
-    background-image: url(../assets/stories/desktop/world-tour.jpg);
+    background-image: url(../../assets/stories/desktop/world-tour.jpg);
   }
   .sunset {
-    background-image: url(../assets/stories/desktop/unforeseen-corners.jpg);
+    background-image: url(../../assets/stories/desktop/unforeseen-corners.jpg);
   }
   .lion {
-    background-image: url(../assets/stories/desktop/king-on-africa.jpg);
+    background-image: url(../../assets/stories/desktop/king-on-africa.jpg);
   }
   .tree {
-    background-image: url(../assets/stories/desktop/trip-to-nowhere.jpg);
+    background-image: url(../../assets/stories/desktop/trip-to-nowhere.jpg);
   }
   .sea {
-    background-image: url(../assets/stories/desktop/rage-of-the-sea.jpg);
+    background-image: url(../../assets/stories/desktop/rage-of-the-sea.jpg);
   }
   .horse {
-    background-image: url(../assets/stories/desktop/running-free.jpg);
+    background-image: url(../../assets/stories/desktop/running-free.jpg);
   }
   .behind-the-waves {
-    background-image: url(../assets/stories/desktop/behind-the-waves.jpg);
+    background-image: url(../../assets/stories/desktop/behind-the-waves.jpg);
   }
   .calm-waters {
-    background-image: url(../assets/stories/desktop/calm-waters.jpg);
+    background-image: url(../../assets/stories/desktop/calm-waters.jpg);
   }
   .milky-way {
-    background-image: url(../assets/stories/desktop/milky-way.jpg);
+    background-image: url(../../assets/stories/desktop/milky-way.jpg);
   }
   .dark-forest {
-    background-image: url(../assets/stories/desktop/dark-forest.jpg);
+    background-image: url(../../assets/stories/desktop/dark-forest.jpg);
   }
   .somwarpet {
-    background-image: url(../assets/stories/desktop/somwarpet.jpg);
+    background-image: url(../../assets/stories/desktop/somwarpet.jpg);
   }
   .land-of-dreams {
-    background-image: url(../assets/stories/desktop/land-of-dreams.jpg);
+    background-image: url(../../assets/stories/desktop/land-of-dreams.jpg);
   }
 }
 
@@ -294,7 +294,7 @@ hr {
     max-width: 100vw;
   }
   .bg {
-    background-image: url(../assets/stories/desktop/moon-of-appalacia.jpg);
+    background-image: url(../../assets/stories/desktop/moon-of-appalacia.jpg);
     padding-left: 112px;
   }
   .stories-container {
