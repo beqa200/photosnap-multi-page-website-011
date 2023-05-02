@@ -17,7 +17,7 @@ body {
 }
 main {
   width: 100%;
-  max-width: 510px;
+  max-width: 520px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,72 +102,12 @@ h3 {
   mix-blend-mode: normal;
   opacity: 0.6;
 }
-
-
 .invite_section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  max-width: 520px;
-  margin-top: 200px;
-}
-.rock_img_mobile {
-  background-image: url(../assets/shared/mobile/bg-beta.jpg);
-  width: 100%;
-  height: 288px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin-top: 60px;
 }
 
-.invite_absolute h1 {
-  margin-top: 58px;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
-  letter-spacing: 3.33333px;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.invite_absolute {
-  padding-left: 33px;
-}
-
-.arrow_div {
-  display: flex;
-  align-items: center;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: right;
-  letter-spacing: 2px;
-  color: #ffffff;
-  column-gap: 16px;
-  margin-top: 24px;
-  justify-content: center;
-}
-.arrow_div img,
-.invition img {
-  filter: invert(100%) sepia(51%) saturate(0%) hue-rotate(102deg)
-    brightness(102%) contrast(101%);
-}
-.colorful_column,
-.tablet_hero,
-.tablet,
-.tablet_compare,
-.tablet_features,
-.rock_img_tablet,
-.desktop {
-  display: none;
-}
 
 /* styles for tablet */
-
 @media only screen and (min-width: 768px) {
   main {
     width: 100%;
