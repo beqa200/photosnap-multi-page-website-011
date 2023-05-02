@@ -388,9 +388,7 @@ button:hover {
   background: #dfdfdf;
 }
 
-
 /* styles for tablet */
-
 
 @media (min-width: 768px) {
   .mobile_hero,
@@ -556,6 +554,7 @@ button:hover {
   .invite_section {
     width: 100vw;
     max-width: 100%;
+    transform: translateY(2px);
   }
   .tablet_features p {
     font-family: "DM Sans";
