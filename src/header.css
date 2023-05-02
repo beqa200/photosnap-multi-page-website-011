@@ -103,6 +103,7 @@ hr {
     display: block;
     width: 158px;
     height: 40px;
+    font-weight: 700;
     background: #000000;
     border: none;
     color: #ffffff;
@@ -121,5 +122,16 @@ hr {
   }
   .tablet-desktop-nav {
     margin: 0 264px 0 252px;
+  }
+  .tablet-desktop-nav a:hover {
+    color: #DFDFDF;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .get-invite:hover{
+    background: #DFDFDF;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.3s;
   }
 }
