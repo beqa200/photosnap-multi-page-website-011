@@ -23,6 +23,8 @@ Users should be able to:
 git clone git@github.com:beqa200/photosnap-multi-page-website-011.git
 ```
 
+2. Next step requires start live server.
+
 ### Links
 
 - Solution URL: [Github](https://github.com/beqa200/photosnap-multi-page-website-011.git)
