@@ -371,6 +371,7 @@ body {
 .colorful_column,
 .tablet_hero,
 .tablet,
+.tablet_btn,
 .tablet_compare,
 .tablet_features,
 .rock_img_tablet,
@@ -407,7 +408,7 @@ body {
   .middle_pro,
   .middle_basic {
     width: 689px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .middle_features {
@@ -415,6 +416,7 @@ body {
   }
 
   .tablet,
+  .tablet_btn,
   .rock_img_tablet,
   .tablet_compare {
     display: block;
@@ -457,8 +459,10 @@ body {
       #5a77ff 83.33%
     );
     width: 6px;
-    height: 280px;
+    height: 288px;
     position: absolute;
+    top: 0;
+    left: 0;
   }
   .colorful_column {
     background: linear-gradient(
@@ -505,6 +509,7 @@ body {
     color: #000000;
     mix-blend-mode: normal;
     opacity: 0.6;
+    width: 270px;
   }
   .offer_price {
     margin: 0;
@@ -531,7 +536,8 @@ body {
     width: 689px;
   }
   .invite_section {
-    max-width: 100vw;
+    width: 100vw;
+    max-width: 100%;
   }
   .tablet_features p {
     font-family: "DM Sans";
